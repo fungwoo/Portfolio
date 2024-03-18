@@ -759,6 +759,8 @@ textarea {
  *   as equal width columns.
  * ------------------------------------------------------------------- */
 
+
+
 /* rows
  * ------------------------------------- */
 .row {
@@ -913,8 +915,8 @@ textarea {
     align-self: flex-end;
 }
 
-/* large screen column widths 
- */
+
+/* large screen column widths */
 .large-1 {
     -ms-flex: 0 0 8.33333%;
     -webkit-box-flex: 0;
@@ -3716,10 +3718,10 @@ button.btn--pill {
 }
 
 .s-hero__content h3 {
-    font-family: var(--font-2);
+    font-family: 'SUIT', sans-serif;
     font-weight: 400;
-    font-size: 2.4rem;
-    line-height: 1.667;
+    font-size: 18px;
+    line-height: 28px;
     color: rgba(255, 255, 255, 0.7);
     margin-top: var(--vspace-0_5);
     margin-right: auto;
@@ -3752,6 +3754,11 @@ button.btn--pill {
 }
 
 .s-hero__content h3>span {
+    color: #fff;
+    font-weight: 700;
+}
+
+.s-hero__content h4>span {
     color: #fff;
     font-weight: 700;
 }
@@ -3795,7 +3802,7 @@ button.btn--pill {
 
 
 /* ------------------------------------------------------------------- 
- * ## hero scrolldown
+ * ## hero scroll_down
  * ------------------------------------------------------------------- */
 .s-hero__scroll {
     -webkit-transform: translateX(-50%);
@@ -3833,7 +3840,7 @@ button.btn--pill {
     height: var(--vspace-1);
     margin-right: 1.6rem;
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid #ffffff;
     position: relative;
 }
 
@@ -4204,7 +4211,7 @@ button.btn--pill {
  *
  * ------------------------------------------------------------------- */
 .s-portfolio {
-    background-color: var(--color-gray-1);
+    background-color: #d4d4d4;
     padding-top: calc(6 * var(--space));
     padding-bottom: var(--vspace-5);
 }
@@ -4215,6 +4222,11 @@ button.btn--pill {
 
 .s-portfolio__header {
     text-align: center;
+}
+
+.portfol_title {
+    font-size: 4.8rem;
+    color: #1e1e1e;
 }
 
 /* ------------------------------------------------------------------- 
@@ -4338,6 +4350,7 @@ button.btn--pill {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
 }
+
 
 /* ------------------------------------------------------------------- 
  * ## modal popup
@@ -4688,12 +4701,21 @@ button.btn--pill {
     margin-bottom: var(--vspace-2_5);
 }
 
-.s-contact .huge-text {
+.s-contact {
     color: white;
     margin-top: 0;
     font-weight: 400;
     font-size: 4.6rem;
     line-height: 1.304;
+}
+
+.huge-text {
+    font-family: 'SUIT', sans-serif;
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: 400;
+    color: #bae9bd;
+    margin: 0;
 }
 
 .s-contact__content [class*="column"]:last-child {
@@ -4714,7 +4736,7 @@ button.btn--pill {
 }
 
 .contact-block a {
-    color: white;
+    color: #ccc;
 }
 
 .contact-block a:hover,
@@ -4811,11 +4833,11 @@ button.btn--pill {
 
 .s-footer .row {
     padding-top: var(--vspace-1);
-    border-top: 1px solid rgba(255, 255, 255, 0.03);
+    border-top: 2px solid rgba(147, 145, 145, 0.08);
 }
 
 .s-footer a {
-    color: white;
+    color: #ccc;
 }
 
 .s-footer a:hover,
@@ -4876,7 +4898,7 @@ button.btn--pill {
     content: "|";
     display: inline-block;
     padding: 0 .8rem 0 1rem;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(165, 160, 160, 0.1);
 }
 
 .ss-copyright span:last-child::after {
